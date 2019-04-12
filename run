@@ -1,0 +1,2 @@
+#!/usr/bin/env sh
+docker run -v $PWD:/root/workspace --cap-add=SYS_PTRACE --security-opt seccomp=unconfined -it cs61c-env /bin/bash
